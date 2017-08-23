@@ -10,7 +10,7 @@ endif
 
 let g:colors_name = "brogrammer"
 
-hi Cursor ctermfg=234 ctermbg=231 cterm=NONE guifg=#1a1a1a guibg=#ecf0f1 gui=NONE
+hi Cursor ctermfg=234 ctermbg=231 cterm=NONE guifg=NONE guibg=#ecf0f1 gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2f2f2f gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2f2f2f gui=NONE
@@ -25,9 +25,9 @@ hi PmenuSel ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NON
 hi Search term=reverse cterm=bold ctermfg=15 ctermbg=196 gui=bold guifg=#f7f3ff guibg=#e14d42
 hi IncSearch term=reverse cterm=bold ctermfg=16 ctermbg=39 gui=bold guifg=#000000 guibg=#6c71c4
 hi Directory ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Folded ctermfg=241 ctermbg=234 cterm=NONE guifg=#606060 guibg=#1a1a1a gui=NONE
+hi Folded ctermfg=241 ctermbg=234 cterm=NONE guifg=#606060 guibg=NONE gui=NONE
 
-hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#ecf0f1 guibg=#1a1a1a gui=NONE
+hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#ecf0f1 guibg=NONE gui=NONE
 hi Boolean ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
 hi Character ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
 hi Comment ctermfg=241 ctermbg=NONE cterm=NONE guifg=#606060 guibg=NONE gui=italic
@@ -45,12 +45,12 @@ hi Function ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
 hi Identifier ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
 hi Keyword ctermfg=167 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
 hi Label ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
-hi NonText ctermfg=22 ctermbg=234 cterm=NONE guifg=#30312a guibg=#1a1a1a gui=NONE
+hi NonText ctermfg=22 ctermbg=234 cterm=NONE guifg=#30312a guibg=NONE gui=NONE
 hi Number ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
 hi Operator ctermfg=167 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
 hi PreProc ctermfg=167 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
 hi Special ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=22 ctermbg=236 cterm=NONE guifg=#f1530f guibg=#1a1a1a gui=NONE
+hi SpecialKey ctermfg=22 ctermbg=236 cterm=NONE guifg=#f1530f guibg=NONE gui=NONE
 hi Statement ctermfg=167 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
 hi StorageClass ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
 hi String ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
