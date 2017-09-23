@@ -70,7 +70,7 @@ hi Todo         ctermfg=241  ctermbg=NONE cterm=inverse,bold guifg=#606060 guibg
 hi Type         ctermfg=41   ctermbg=NONE cterm=NONE         guifg=#2ecc71 guibg=NONE    gui=NONE
 hi Underlined   ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE    guibg=NONE    gui=underline
 hi VertSplit    ctermfg=240  ctermbg=240  cterm=NONE         guifg=#575858 guibg=#f7f3ff gui=NONE
-hi Visual       ctermfg=NONE ctermbg=238  cterm=NONE         guifg=NONE    guibg=#575858 gui=NONE
+hi Visual       ctermfg=NONE ctermbg=238  cterm=NONE         guifg=#000000 guibg=#f1c40f gui=NONE
 hi WarningMsg   ctermfg=15   ctermbg=167  cterm=NONE         guifg=#ffffff guibg=#e74c3c gui=NONE
 
 hi cssBraces        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE    guibg=NONE gui=NONE
