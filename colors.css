@@ -1,0 +1,118 @@
+/* Simple reference sample of colors used in this theme */
+
+
+/* Monochrome */
+
+.color-mono-01 {
+	color: #000;
+}
+
+.color-mono-02 {
+	color: #1d3251;
+}
+
+.color-mono-03 {
+	color: #2f2f2f;
+}
+
+.color-mono-04 {
+	color: #383838;
+}
+
+.color-mono-05 {
+	color: #444;
+}
+
+.color-mono-06 {
+	color: #575858;
+}
+
+.color-mono-07 {
+	color: #606060;
+}
+
+.color-mono-08 {
+	color: #838586;
+}
+
+.color-mono-09 {
+	color: #ecf0f1;
+}
+
+.color-mono-10 {
+	color: #f7f3ff;
+}
+
+.color-mono-11 {
+	color: #fff;
+}
+
+
+/* Reds */
+
+.color-red-01 {
+	color: #880505;
+}
+
+.color-red-02 {
+	color: #e14d42;
+}
+
+.color-red-03 {
+	color: #e74c3c;
+}
+
+.color-red-04 {
+	color: #f22;
+}
+
+
+/* Oranges */
+
+.color-orange-01 {
+	color: #e67e22;
+}
+
+
+/* Yellows */
+
+.color-yellow-01 {
+	color: #bb0;
+}
+
+.color-yellow-02 {
+	color: #f1c40f;
+}
+
+
+/* Greens */
+
+.color-green-01 {
+	color: #090;
+}
+
+.color-green-02 {
+	color: #44800a;
+}
+
+.color-green-03 {
+	color: #2ecc71;
+}
+
+.color-green-04 {
+	color: #00df00;
+}
+
+
+/* Blues */
+
+.color-blue-01 {
+	color: #3498db;
+}
+
+
+/* Violets */
+
+.color-violet-01 {
+	color: #6c71c4;
+}
