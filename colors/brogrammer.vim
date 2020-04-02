@@ -115,19 +115,36 @@ hi htmlTagName     gui=NONE             guibg=NONE guifg=#909090
 
 
 " JS
-hi javaScriptBraces        cterm=NONE ctermbg=NONE ctermfg=NONE  gui=NONE   guibg=NONE guifg=NONE
-hi javaScriptFunction      cterm=NONE ctermbg=NONE ctermfg=68    gui=NONE   guibg=NONE guifg=#3498db
-hi javaScriptRailsFunction cterm=NONE ctermbg=NONE ctermfg=68    gui=NONE   guibg=NONE guifg=#3498db
-hi jsComment               cterm=NONE ctermbg=NONE ctermfg=241   gui=italic guibg=NONE guifg=#505050
-hi jsFuncArgs              cterm=NONE ctermbg=NONE ctermfg=241   gui=italic guibg=NONE guifg=#aaaaaa
-hi jsParenIfElse           cterm=NONE ctermbg=NONE ctermfg=241   gui=italic guibg=NONE guifg=#aaaaaa
-hi jsParensIfElse          cterm=NONE ctermbg=NONE ctermfg=68    gui=bold   guibg=NONE guifg=#3498db
-hi jsParenSwitch           cterm=NONE ctermbg=NONE ctermfg=241   gui=italic guibg=NONE guifg=#aaaaaa
-hi jsParensSwitch          cterm=NONE ctermbg=NONE ctermfg=68    gui=bold   guibg=NONE guifg=#3498db
-hi jsLabel                 cterm=NONE ctermbg=NONE ctermfg=68    gui=bold   guibg=NONE guifg=#3498db
-hi jsStorageClass          cterm=NONE ctermbg=NONE ctermfg=68    gui=bold   guibg=NONE guifg=#3498db
-hi jsSwitchBraces          cterm=NONE ctermbg=NONE ctermfg=172   gui=NONE   guibg=NONE guifg=#e67e22
-hi jsSwitchColon           cterm=NONE ctermbg=NONE ctermfg=241   gui=NONE   guibg=NONE guifg=#808080
+hi javaScriptBraces        cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE   guibg=NONE guifg=NONE
+hi javaScriptFunction      cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE   guibg=NONE guifg=#3498db
+hi javaScriptRailsFunction cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE   guibg=NONE guifg=#3498db
+hi jsComment               cterm=NONE ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#505050
+hi jsFuncArgs              cterm=NONE ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#aaaaaa
+hi jsParenIfElse           cterm=NONE ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#aaaaaa
+hi jsParensIfElse          cterm=NONE ctermbg=NONE ctermfg=68   gui=bold   guibg=NONE guifg=#3498db
+hi jsParenSwitch           cterm=NONE ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#aaaaaa
+hi jsParensSwitch          cterm=NONE ctermbg=NONE ctermfg=68   gui=bold   guibg=NONE guifg=#3498db
+hi jsLabel                 cterm=NONE ctermbg=NONE ctermfg=68   gui=bold   guibg=NONE guifg=#3498db
+hi jsStorageClass          cterm=NONE ctermbg=NONE ctermfg=68   gui=bold   guibg=NONE guifg=#3498db
+hi jsSwitchBraces          cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE   guibg=NONE guifg=#e67e22
+hi jsSwitchColon           cterm=NONE ctermbg=NONE ctermfg=241  gui=NONE   guibg=NONE guifg=#808080
+
+
+" PHP
+hi phpComment       gui=italic guibg=NONE guifg=#505050
+hi phpType          gui=NONE   guibg=NONE guifg=#e74c3c
+hi phpFunction      gui=NONE   guibg=NONE guifg=#2ecc71
+hi phpFunctions     gui=NONE   guibg=NONE guifg=#2ecc71
+hi phpIdentifier    gui=NONE   guibg=NONE guifg=#34dbcb
+hi phpVarSelector   gui=NONE   guibg=NONE guifg=#3498db
+hi phpMethod        gui=NONE   guibg=NONE guifg=#2ecc71
+hi phpNullValue     gui=NONE   guibg=NONE guifg=#3acc2e
+hi phpNumber        gui=NONE   guibg=NONE guifg=#8c54d9
+hi phpOperator      gui=italic guibg=NONE guifg=#3498db
+hi phpParent        gui=NONE   guibg=NONE guifg=#2ea324
+hi phpRegion        gui=italic guibg=NONE guifg=#ecf0f1
+hi phpStringDouble  gui=italic guibg=NONE guifg=#e67e22
+hi phpStringSingle  gui=NONE   guibg=NONE guifg=#f1c40f
 
 
 " Ruby

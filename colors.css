@@ -8,42 +8,66 @@
 }
 
 .color-mono-02 {
-	color: #1d3251;
+	color: #0f0f0f;
 }
 
 .color-mono-03 {
-	color: #2f2f2f;
+	color: #101010;
 }
 
 .color-mono-04 {
-	color: #383838;
+	color: #202020;
 }
 
 .color-mono-05 {
-	color: #444;
+	color: #2f2f2f;
 }
 
 .color-mono-06 {
-	color: #575858;
+	color: #383838;
 }
 
 .color-mono-07 {
-	color: #606060;
+	color: #444;
 }
 
 .color-mono-08 {
-	color: #838586;
+	color: #505050;
 }
 
 .color-mono-09 {
-	color: #ecf0f1;
+	color: #585858;
 }
 
 .color-mono-10 {
-	color: #f7f3ff;
+	color: #606060;
 }
 
 .color-mono-11 {
+	color: #808080;
+}
+
+.color-mono-12 {
+	color: #838586;
+}
+
+.color-mono-13 {
+	color: #909090;
+}
+
+.color-mono-14 {
+	color: #aaa;
+}
+
+.color-mono-15 {
+	color: #ecf0f1;
+}
+
+.color-mono-16 {
+	color: #f7f3ff;
+}
+
+.color-mono-17 {
 	color: #fff;
 }
 
@@ -107,6 +131,10 @@
 /* Blues */
 
 .color-blue-01 {
+	color: #1d3251;
+}
+
+.color-blue-02 {
 	color: #3498db;
 }
 
