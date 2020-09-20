@@ -121,20 +121,20 @@ hi jsSwitchColon           cterm=NONE   ctermbg=NONE ctermfg=241  gui=NONE   gui
 
 
 " PHP
-hi phpComment       gui=italic guibg=NONE guifg=#505050
-hi phpType          gui=NONE   guibg=NONE guifg=#e74c3c
-hi phpFunction      gui=NONE   guibg=NONE guifg=#2ecc71
-hi phpFunctions     gui=NONE   guibg=NONE guifg=#2ecc71
-hi phpIdentifier    gui=NONE   guibg=NONE guifg=#34dbcb
-hi phpVarSelector   gui=NONE   guibg=NONE guifg=#3498db
-hi phpMethod        gui=NONE   guibg=NONE guifg=#2ecc71
-hi phpNullValue     gui=NONE   guibg=NONE guifg=#3acc2e
-hi phpNumber        gui=NONE   guibg=NONE guifg=#8c54d9
-hi phpOperator      gui=italic guibg=NONE guifg=#3498db
-hi phpParent        gui=NONE   guibg=NONE guifg=#2ea324
-hi phpRegion        gui=italic guibg=NONE guifg=#ecf0f1
-hi phpStringDouble  gui=italic guibg=NONE guifg=#e67e22
-hi phpStringSingle  gui=NONE   guibg=NONE guifg=#f1c40f
+hi phpComment       gui=italic  guibg=NONE  guifg=#505050
+hi phpType          gui=NONE    guibg=NONE  guifg=#e74c3c
+hi phpFunction      gui=NONE    guibg=NONE  guifg=#2ecc71
+hi phpFunctions     gui=NONE    guibg=NONE  guifg=#2ecc71
+hi phpIdentifier    gui=NONE    guibg=NONE  guifg=#34dbcb
+hi phpVarSelector   gui=NONE    guibg=NONE  guifg=#3498db
+hi phpMethod        gui=NONE    guibg=NONE  guifg=#2ecc71
+hi phpNullValue     gui=NONE    guibg=NONE  guifg=#3acc2e
+hi phpNumber        gui=NONE    guibg=NONE  guifg=#8c54d9
+hi phpOperator      gui=italic  guibg=NONE  guifg=#3498db
+hi phpParent        gui=NONE    guibg=NONE  guifg=#2ea324
+hi phpRegion        gui=italic  guibg=NONE  guifg=#ecf0f1
+hi phpStringDouble  gui=italic  guibg=NONE  guifg=#e67e22
+hi phpStringSingle  gui=NONE    guibg=NONE  guifg=#f1c40f
 
 
 " Ruby
@@ -142,29 +142,29 @@ hi erubyComment      cterm=italic  ctermbg=NONE  ctermfg=241   gui=italic  guibg
 hi erubyDelimiter    cterm=NONE    ctermbg=NONE  ctermfg=NONE  gui=NONE    guibg=NONE  guifg=NONE
 hi erubyRailsMethod  cterm=NONE    ctermbg=NONE  ctermfg=68    gui=NONE    guibg=NONE  guifg=#3498db
 
-hi rubyBlockParameter           cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE guibg=NONE guifg=#e67e22
-hi rubyClass                    cterm=bold ctermbg=NONE ctermfg=167  gui=bold guibg=NONE guifg=#e74c3c
-hi rubyClassVariable            cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE guibg=NONE guifg=#e67e22
-hi rubyConstant                 cterm=bold ctermbg=NONE ctermfg=68   gui=bold guibg=NONE guifg=#3498db
-hi rubyControl                  cterm=bold ctermbg=NONE ctermfg=167  gui=bold guibg=NONE guifg=#e74c3c
-hi rubyEscape                   cterm=NONE ctermbg=NONE ctermfg=62   gui=NONE guibg=NONE guifg=#6c71c4
-hi rubyException                cterm=bold ctermbg=NONE ctermfg=167  gui=bold guibg=NONE guifg=#e74c3c
-hi rubyFunction                 cterm=NONE ctermbg=NONE ctermfg=41   gui=NONE guibg=NONE guifg=#2ecc71
-hi rubyGlobalVariable           cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE guibg=NONE guifg=#e67e22
-hi rubyInclude                  cterm=bold ctermbg=NONE ctermfg=167  gui=bold guibg=NONE guifg=#e74c3c
-hi rubyInstanceVariable         cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE guibg=NONE guifg=#e67e22
-hi rubyInterpolationDelimiter   cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
-hi rubyOperator                 cterm=bold ctermbg=NONE ctermfg=167  gui=bold guibg=NONE guifg=#e74c3c
-hi rubyPseudoVariable           cterm=NONE ctermbg=NONE ctermfg=172  gui=NONE guibg=NONE guifg=#e67e22
-hi rubyRailsARAssociationMethod cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyRailsARMethod            cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyRailsMethod              cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyRailsRenderMethod        cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyRailsUserClass           cterm=bold ctermbg=NONE ctermfg=68   gui=bold guibg=NONE guifg=#3498db
-hi rubyRegexp                   cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyRegexpDelimiter          cterm=NONE ctermbg=NONE ctermfg=68   gui=NONE guibg=NONE guifg=#3498db
-hi rubyStringDelimiter          cterm=NONE ctermbg=NONE ctermfg=220  gui=NONE guibg=NONE guifg=#f1c40f
-hi rubySymbol                   cterm=NONE ctermbg=NONE ctermfg=62   gui=NONE guibg=NONE guifg=#6c71c4
+hi rubyBlockParameter           cterm=NONE  ctermbg=NONE  ctermfg=172   gui=NONE  guibg=NONE  guifg=#e67e22
+hi rubyClass                    cterm=bold  ctermbg=NONE  ctermfg=167   gui=bold  guibg=NONE  guifg=#e74c3c
+hi rubyClassVariable            cterm=NONE  ctermbg=NONE  ctermfg=172   gui=NONE  guibg=NONE  guifg=#e67e22
+hi rubyConstant                 cterm=bold  ctermbg=NONE  ctermfg=68    gui=bold  guibg=NONE  guifg=#3498db
+hi rubyControl                  cterm=bold  ctermbg=NONE  ctermfg=167   gui=bold  guibg=NONE  guifg=#e74c3c
+hi rubyEscape                   cterm=NONE  ctermbg=NONE  ctermfg=62    gui=NONE  guibg=NONE  guifg=#6c71c4
+hi rubyException                cterm=bold  ctermbg=NONE  ctermfg=167   gui=bold  guibg=NONE  guifg=#e74c3c
+hi rubyFunction                 cterm=NONE  ctermbg=NONE  ctermfg=41    gui=NONE  guibg=NONE  guifg=#2ecc71
+hi rubyGlobalVariable           cterm=NONE  ctermbg=NONE  ctermfg=172   gui=NONE  guibg=NONE  guifg=#e67e22
+hi rubyInclude                  cterm=bold  ctermbg=NONE  ctermfg=167   gui=bold  guibg=NONE  guifg=#e74c3c
+hi rubyInstanceVariable         cterm=NONE  ctermbg=NONE  ctermfg=172   gui=NONE  guibg=NONE  guifg=#e67e22
+hi rubyInterpolationDelimiter   cterm=NONE  ctermbg=NONE  ctermfg=NONE  gui=NONE  guibg=NONE  guifg=NONE
+hi rubyOperator                 cterm=bold  ctermbg=NONE  ctermfg=167   gui=bold  guibg=NONE  guifg=#e74c3c
+hi rubyPseudoVariable           cterm=NONE  ctermbg=NONE  ctermfg=172   gui=NONE  guibg=NONE  guifg=#e67e22
+hi rubyRailsARAssociationMethod cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyRailsARMethod            cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyRailsMethod              cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyRailsRenderMethod        cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyRailsUserClass           cterm=bold  ctermbg=NONE  ctermfg=68    gui=bold  guibg=NONE  guifg=#3498db
+hi rubyRegexp                   cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyRegexpDelimiter          cterm=NONE  ctermbg=NONE  ctermfg=68    gui=NONE  guibg=NONE  guifg=#3498db
+hi rubyStringDelimiter          cterm=NONE  ctermbg=NONE  ctermfg=220   gui=NONE  guibg=NONE  guifg=#f1c40f
+hi rubySymbol                   cterm=NONE  ctermbg=NONE  ctermfg=62    gui=NONE  guibg=NONE  guifg=#6c71c4
 
 
 " sh/bash
@@ -184,18 +184,20 @@ hi shDoubleQuote  gui=italic guibg=NONE guifg=#e67e22
 
 
 " yaml
-hi yamlAlias          cterm=NONE ctermbg=NONE ctermfg=172 gui=NONE guibg=NONE guifg=#e67e22
-hi yamlAnchor         cterm=NONE ctermbg=NONE ctermfg=172 gui=NONE guibg=NONE guifg=#e67e22
-hi yamlDocumentHeader cterm=NONE ctermbg=NONE ctermfg=220 gui=NONE guibg=NONE guifg=#f1c40f
-hi yamlKey            cterm=NONE ctermbg=NONE ctermfg=41  gui=NONE guibg=NONE guifg=#2ecc71
+hi yamlAlias              cterm=NONE  ctermbg=NONE  ctermfg=172  gui=NONE  guibg=NONE  guifg=#e67e22
+hi yamlBlockMappingKey    cterm=NONE  ctermbg=NONE  ctermfg=41   gui=NONE  guibg=NONE  guifg=#2ecc71
+hi yamlAnchor             cterm=NONE  ctermbg=NONE  ctermfg=172  gui=NONE  guibg=NONE  guifg=#e67e22
+hi yamlDocumentHeader     cterm=NONE  ctermbg=NONE  ctermfg=220  gui=NONE  guibg=NONE  guifg=#f1c40f
+hi yamlKey                cterm=NONE  ctermbg=NONE  ctermfg=41   gui=NONE  guibg=NONE  guifg=#2ecc71
+hi yamlKeyValueDelimiter  cterm=bold  ctermbg=NONE  ctermfg=167  gui=bold  guibg=NONE  guifg=#e74c3c
 
 
 " vim-illuminate
-hi illuminatedWord cterm=underline ctermbg=NONE ctermfg=NONE gui=bold,inverse,italic,underline guibg=NONE guifg=NONE
+hi illuminatedWord  cterm=underline  ctermbg=NONE  ctermfg=NONE  gui=bold,inverse,italic,underline  guibg=NONE  guifg=NONE
 
 
 " GitGutter
-hi GitGutterAddDefault    cterm=NONE ctermbg=236 ctermfg=2    gui=NONE guibg=#2f2f2f guifg=#009900
-hi GitGutterChangeDefault cterm=NONE ctermbg=236 ctermfg=244  gui=NONE guibg=#2f2f2f guifg=#bbbb00
-hi GitGutterDeleteDefault cterm=NONE ctermbg=236 ctermfg=1    gui=NONE guibg=#2f2f2f guifg=#ff2222
-hi SignColumn             cterm=NONE ctermbg=236 ctermfg=244  gui=NONE guibg=#2f2f2f guifg=#838586
+hi GitGutterAddDefault     cterm=NONE  ctermbg=236  ctermfg=2    gui=NONE  guibg=#2f2f2f  guifg=#009900
+hi GitGutterChangeDefault  cterm=NONE  ctermbg=236  ctermfg=244  gui=NONE  guibg=#2f2f2f  guifg=#bbbb00
+hi GitGutterDeleteDefault  cterm=NONE  ctermbg=236  ctermfg=1    gui=NONE  guibg=#2f2f2f  guifg=#ff2222
+hi SignColumn              cterm=NONE  ctermbg=236  ctermfg=244  gui=NONE  guibg=#2f2f2f  guifg=#838586
