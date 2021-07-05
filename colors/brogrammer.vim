@@ -19,7 +19,7 @@ let g:colors_name = 'brogrammer'
 hi Boolean       cterm=NONE                           ctermbg=NONE  ctermfg=62    gui=NONE                           guibg=NONE     guifg=#6c71c4
 hi Character     cterm=NONE                           ctermbg=NONE  ctermfg=62    gui=NONE                           guibg=NONE     guifg=#6c71c4
 hi ColorColumn   cterm=NONE                           ctermbg=236   ctermfg=NONE  gui=NONE                           guibg=#2f2f2f  guifg=NONE
-hi Comment       cterm=italic                         ctermbg=NONE  ctermfg=241   gui=italic                         guibg=NONE     guifg=#606060
+hi Comment       cterm=italic                         ctermbg=NONE  ctermfg=241   gui=italic                         guibg=NONE     guifg=#686868
 hi Conditional   cterm=bold                           ctermbg=NONE  ctermfg=167   gui=bold                           guibg=NONE     guifg=#e74c3c
 hi Constant      cterm=NONE                           ctermbg=NONE  ctermfg=62    gui=NONE                           guibg=NONE     guifg=#6c71c4
 hi Define        cterm=bold                           ctermbg=NONE  ctermfg=167   gui=bold                           guibg=NONE     guifg=#e74c3c
@@ -108,7 +108,7 @@ hi htmlTagName      cterm=NONE              gui=NONE              guibg=NONE  gu
 hi javaScriptBraces        cterm=NONE   ctermbg=NONE ctermfg=NONE gui=NONE   guibg=NONE guifg=NONE
 hi javaScriptFunction      cterm=NONE   ctermbg=NONE ctermfg=68   gui=NONE   guibg=NONE guifg=#3498db
 hi javaScriptRailsFunction cterm=NONE   ctermbg=NONE ctermfg=68   gui=NONE   guibg=NONE guifg=#3498db
-hi jsComment               cterm=italic ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#505050
+hi jsComment               cterm=italic ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#686868
 hi jsFuncArgs              cterm=italic ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#aaaaaa
 hi jsParenIfElse           cterm=italic ctermbg=NONE ctermfg=241  gui=italic guibg=NONE guifg=#aaaaaa
 hi jsParensIfElse          cterm=bold   ctermbg=NONE ctermfg=68   gui=bold   guibg=NONE guifg=#3498db
@@ -121,7 +121,7 @@ hi jsSwitchColon           cterm=NONE   ctermbg=NONE ctermfg=241  gui=NONE   gui
 
 
 " PHP
-hi phpComment       gui=italic  guibg=NONE  guifg=#505050
+hi phpComment       gui=italic  guibg=NONE  guifg=#686868
 hi phpType          gui=NONE    guibg=NONE  guifg=#e74c3c
 hi phpFunction      gui=NONE    guibg=NONE  guifg=#2ecc71
 hi phpFunctions     gui=NONE    guibg=NONE  guifg=#2ecc71
@@ -138,7 +138,7 @@ hi phpStringSingle  gui=NONE    guibg=NONE  guifg=#f1c40f
 
 
 " Ruby
-hi erubyComment      cterm=italic  ctermbg=NONE  ctermfg=241   gui=italic  guibg=NONE  guifg=#606060
+hi erubyComment      cterm=italic  ctermbg=NONE  ctermfg=241   gui=italic  guibg=NONE  guifg=#686868
 hi erubyDelimiter    cterm=NONE    ctermbg=NONE  ctermfg=NONE  gui=NONE    guibg=NONE  guifg=NONE
 hi erubyRailsMethod  cterm=NONE    ctermbg=NONE  ctermfg=68    gui=NONE    guibg=NONE  guifg=#3498db
 
@@ -169,7 +169,6 @@ hi rubySymbol                   cterm=NONE  ctermbg=NONE  ctermfg=62    gui=NONE
 
 " sh/bash
 " hi shCommandSub
-" hi shComment
 " hi shFunction
 " hi shFunctionOne
 " hi shQuote
@@ -177,8 +176,8 @@ hi rubySymbol                   cterm=NONE  ctermbg=NONE  ctermfg=62    gui=NONE
 " hi shStatement
 
 " hi shDerefVar
+hi shComment      gui=italic guibg=NONE guifg=#686868
 hi shDerefSimple  gui=NONE   guibg=NONE guifg=#ff2222
-
 hi shSingleQuote  gui=NONE   guibg=NONE guifg=#f1c40f
 hi shDoubleQuote  gui=italic guibg=NONE guifg=#e67e22
 
