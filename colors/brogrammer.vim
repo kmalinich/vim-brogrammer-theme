@@ -70,7 +70,7 @@ hi Special    cterm=NONE  ctermbg=NONE  ctermfg=62  gui=NONE                   g
 
 " Whitespace
 hi ExtraWhitespace  gui=NONE    guibg=NONE     guifg=#2f2f2f
-hi Whitespace       gui=NONE    guibg=NONE     guifg=#383838
+hi Whitespace       gui=NONE    guibg=NONE     guifg=#5a5a5a
 hi NonText          gui=italic  guibg=#0f0f0f  guifg=#424242
 hi SpecialKey       gui=NONE    guibg=#383838  guifg=#f1c40f
 
