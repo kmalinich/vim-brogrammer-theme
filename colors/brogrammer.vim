@@ -82,6 +82,9 @@ hi Statement cterm=bold ctermbg=NONE ctermfg=167 gui=bold      guibg=NONE guifg=
 hi StatusLine   cterm=bold ctermbg=240 ctermfg=231 gui=bold guibg=#585858 guifg=#ecf0f1
 hi StatusLineNC cterm=NONE ctermbg=240 ctermfg=231 gui=NONE guibg=#585858 guifg=#ecf0f1
 
+" Notification window
+hi NotifyBackground guibg=#0f0f0f
+
 
 " CSS
 hi cssBraces        cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=NONE guifg=NONE
