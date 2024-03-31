@@ -71,7 +71,7 @@ hi Special    cterm=NONE  ctermbg=NONE  ctermfg=62  gui=NONE                   g
 " Whitespace
 hi ExtraWhitespace  gui=NONE    guibg=NONE     guifg=#2f2f2f
 hi Whitespace       gui=NONE    guibg=NONE     guifg=#3a3a3a
-hi NonText          gui=italic  guibg=#0f0f0f  guifg=#424242
+hi NonText          gui=italic  guibg=NONE     guifg=#3a3a3a
 hi SpecialKey       gui=NONE    guibg=#383838  guifg=#f1c40f
 
 " Spell checking
